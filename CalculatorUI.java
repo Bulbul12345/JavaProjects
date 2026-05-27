@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.awt.*;
 public class CalculatorUI {
     public static void main(String[] args) {
-        JFrame f=new JFrame("Calculator: ");
+        JFrame f=new JFrame("CalculatorUI: ");
       f.setLayout(new BorderLayout());
         JTextField t=new JTextField(20);
         f.add(t,BorderLayout.NORTH);
