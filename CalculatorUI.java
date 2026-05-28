@@ -19,6 +19,7 @@ public class CalculatorUI {
 
         for(String b : buttons){
             p.add(new JButton(b));
+            
         }
 
         f.add(p, BorderLayout.CENTER);
